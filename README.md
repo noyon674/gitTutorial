@@ -5,14 +5,15 @@
 ---
 <p>1. First of all initialize the git in the work directory.</p>
 
-`git init`
+```
+git init
+```
 
 <p>2. For showing how many files or folder exists in the working directory.</p>
 
-`git ls`
 ```
-For showing hidden files use:
-git ls -a
+git ls
+git ls -a 
 ```
 
 <p></p>
