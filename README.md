@@ -41,17 +41,36 @@ git diff
 `red color for working directory` </br>
 
 `blue color for staging area`
-<p>7. Move working directory to staging area:<p/>
+<p>7. To move working directory to staging area:<p/>
 
 ```
 There are different ways
 
 // for specific files -- with extension
-1. git add file1 file2 file3 ...
+1. git add filename1 filename2 ...
 
 // for all the file which are the same extension
 2. git add *.extension
 
 // all the file of the directory -- alson different extension fils
 3. git add .
+```
+<p>8. To move back the staging area to working directory.</p>
+
+```
+git restore filename
+```
+<p>9. To move the staging area to local repository:</p>
+
+```
+git commit -m "clean message for changes"
+```
+<p>10. For showing all the commits you have done.</p>
+
+```
+// with full commitID
+1. git log
+
+//short commitID
+2. git log --oneline
 ```
