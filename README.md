@@ -74,3 +74,29 @@ git commit -m "clean message for changes"
 //short commitID
 2. git log --oneline
 ```
+<p>11. For showing the changes after commit:</p>
+
+```
+1. git show
+2. git show head
+```
+<p>12. Move one branch to another branch:</p>
+
+```
+git checkout commit_id
+
+```
+Always remember, the letest commit id always `master`
+<p>13. For go back to the previous layer:</p>
+
+```
+// local repository to staging area
+1. git reset --soft HEAD^
+
+// local repository to working directory -- with recent changes
+2. git reset HEAD^
+
+// local repo to working directory -- with delete recent changes
+3. git reset --hard HEAD
+```
+<p>14. </p>
