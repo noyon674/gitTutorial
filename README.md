@@ -99,4 +99,6 @@ Always remember, the letest commit id always `master`
 // local repo to working directory -- with delete recent changes
 3. git reset --hard HEAD
 ```
-<p>14. </p>
+<p>14. git revert is most important for the developer. git reset removed the commit history, but revert does not do that:</p>
+
+`git revert commit_id`
