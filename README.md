@@ -102,3 +102,22 @@ Always remember, the letest commit id always `master`
 <p>14. git revert is most important for the developer. git reset removed the commit history, but revert does not do that:</p>
 
 `git revert commit_id`
+
+
+<p>15. For upload the code from local repository to remote repository</p>
+
+```
+step-1: first complete adding and commiting into the local repo
+
+step-2: connect with the remote repo.
+--> git remote add origin 'github_repo_link'
+
+step-3: git branch -M main
+
+step-4: git push -u origin main
+```
+
+<p>16. pull command work for taking codes from remote repo to local repo.</p>
+
+`git pull origin branch_name`
+if you stay in the same branch then just use `git pull`
