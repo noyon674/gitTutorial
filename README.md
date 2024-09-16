@@ -121,3 +121,7 @@ step-4: git push -u origin main
 
 `git pull origin branch_name`
 if you stay in the same branch then just use `git pull`
+
+<p>17. For checking the local repo is connected or not with remote repo.</p>
+
+`git remote -v`
