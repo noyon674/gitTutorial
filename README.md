@@ -135,3 +135,17 @@ git branch new_branch_name
 20. move different branch `git checkout branchName`
 
 - Here we create a branch name develop and make a commit but If we move the main branch then we didnot find the file which created in the develop branch.
+
+Please complete adding and commiting all the from new branch then move to the main branch.
+
+### Merge two branch
+1. Merge data from develop branch to main branch. Ensure done commit in the develop branch.
+
+2. Back to the main branch and press `git merge develop`
+
+3. Data will be added into the main branch. After delete the develop branch. `git branch -d develop`
+
+## push code to the specific branch
+1. If you staying `develop` branch and you want to push data to the `develop` branch the just write `git push`
+
+2. If you staying `develop` branch and you want to push to the `main` branch then the command is `git push -u origin main`
