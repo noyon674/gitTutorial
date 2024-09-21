@@ -133,3 +133,5 @@ if you stay in the same branch then just use `git pull`
 git branch new_branch_name
 ```
 20. move different branch `git checkout branchName`
+
+- Here we create a branch name develop and make a commit but If we move the main branch then we didnot find the file which created in the develop branch.
