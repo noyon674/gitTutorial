@@ -125,3 +125,11 @@ if you stay in the same branch then just use `git pull`
 <p>17. For checking the local repo is connected or not with remote repo.</p>
 
 `git remote -v`
+
+18. show branch `git branch`
+
+19. create branch
+```
+git branch new_branch_name
+```
+20. move different branch `git checkout branchName`
